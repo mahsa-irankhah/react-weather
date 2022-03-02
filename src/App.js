@@ -53,6 +53,7 @@ function App() {
         <a
           href="https://github.com/mahsa-irankhah/react-weather"
           target="_blank"
+          rel="noreferrer"
           className="source-link"
         >
           open-source project
