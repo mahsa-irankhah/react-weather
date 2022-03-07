@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Tehran" />
+        <p><a href="">open-sourced</a> project coded by Mahsa Irankhah</p>
       </div>
     </div>
   );
