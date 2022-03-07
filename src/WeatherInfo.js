@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./WeatherInfo.module.css";
 import humidityIcon from "./images/humidity.png";
 import windIcon from "./images/wind.png";
-import PrecipitationIcon from "./images/precipitation.png";
 import FormatedDate from "./FormatedDate";
 import DisplayIcon from "./DisplayIcon";
 import ShowTemperature from "./ShowTemperature";

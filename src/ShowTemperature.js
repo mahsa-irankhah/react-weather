@@ -15,7 +15,7 @@ const ShowTemperature = (props) => {
         setUnit('metric')
     }
 
-    if (unit == 'metric') {
+    if (unit === 'metric') {
         return (
           <div>
             <span className={styles.temp}>{temperature}</span>
