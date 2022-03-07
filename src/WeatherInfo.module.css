@@ -20,9 +20,18 @@ ul {
 
 .temp {
     text-align: center;
-    margin-left: 45%;
+    margin-left: 55%;
     font-size: 100px;
 }
+
+.unitLinks {
+    position: relative;
+    bottom: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
 
 .city {
     font-size: 30px;
