@@ -1,0 +1,42 @@
+
+canvas {
+    margin-left: 60%;
+}
+
+ul {
+    list-style: none;
+}
+
+.listIcons {
+    width: 30px;
+    margin-left: 0;
+}
+
+.status li {
+    margin-left: 30px;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.temp {
+    text-align: center;
+    margin-left: 45%;
+    font-size: 100px;
+}
+
+.city {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.time {
+    font-weight: 600;
+    opacity: 0.7;
+}
+
+.description {
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+}
