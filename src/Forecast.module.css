@@ -1,0 +1,8 @@
+.forecast {
+    text-align: center;
+    max-width: 300px;
+}
+
+.forecast canvas {
+    margin: 15px 0;
+}

@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import styles from './Weather.module.css';
 import axios from 'axios';
 import WeatherInfo from './WeatherInfo';
+import Forecast from './Forecast';
 
 const Weather = (props) => {
   let [weatherData, setWeatherData] = useState({ready: false});
@@ -17,7 +18,8 @@ const Weather = (props) => {
       wind: response.data.wind.speed,
       description: response.data.weather[0].description,
       date: new Date(response.data.dt *1000),
-      icon: response.data.weather[0].icon
+      icon: response.data.weather[0].icon,
+      coords: response.data.coord
     });
   };
   
@@ -50,6 +52,7 @@ return (
       <input type="submit" className="btn btn-primary" />
     </form>
     <WeatherInfo data={weatherData} />
+    <Forecast coords={weatherData.coords} />
   </div>
 );
   } else {
