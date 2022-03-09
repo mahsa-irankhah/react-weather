@@ -37,9 +37,7 @@ const weatherData = (props) => {
               <img className={styles.listIcons} src={windIcon} alt="icon" />{" "}
               wind {Math.round(props.data.wind)} km/h{" "}
             </li>
-            <li>
-              
-            </li>
+            <li></li>
           </ul>
         </div>
       </div>
