@@ -11,7 +11,7 @@ const weatherData = (props) => {
     <div>
       <div className="row mt-5 align-items-center">
         <div className="col-6">
-          <DisplayIcon code={props.data.icon} size='100' />
+          <DisplayIcon code={props.data.icon} size={100} />
         </div>
         <div className="col-6">
           <ul>
