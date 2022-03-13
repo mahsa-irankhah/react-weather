@@ -24,15 +24,15 @@ const ForecastDay = (props) => {
         <div className="d-flex align-items-center justify-content-evenly">
           <DisplayIcon code={data.weather[0].icon} size={70} />
           <div>
-            <div>{day()}</div>
+            <div className={styles.title}>{day()}</div>
             <div>{data.weather[0].description}</div>
           </div>
           <div className={styles.min}>
-            <div className={styles.minTitle}>Min</div>
+            <div className={styles.title}>Min</div>
             <div className={styles.minTemp}>{Math.round(data.temp.min)}°</div>
           </div>
           <div className={styles.max}>
-            <div className={styles.maxTitle}>Max</div>
+            <div className={styles.title}>Max</div>
             <div className={styles.maxTemp}>{Math.round(data.temp.max)}°</div>
           </div>
         </div>
