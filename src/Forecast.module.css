@@ -6,7 +6,7 @@
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(2, 400px);
-    grid-gap: 10px;
+    grid-gap: 15px;
 }
 
 .forecast canvas {
@@ -14,7 +14,8 @@
 }
 
 .forecast .col {
-    border: 1px solid gray;
+    border: 1px solid #8a8888;
     border-radius: 5px;
-    background-color: #fff;
+    background-color: #131320;
+    box-shadow: 0 -1px 5px rgba(0, 0, 0, 1);
 }

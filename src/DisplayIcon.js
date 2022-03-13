@@ -26,7 +26,7 @@ const DisplayIcon = (props) => {
       <div>
         <ReactAnimatedWeather
           icon={icons[props.code]}
-          color="#051433"
+          color="#fff"
           size={props.size}
           animate={true}
         />
