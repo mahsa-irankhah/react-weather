@@ -1,8 +1,20 @@
 .forecast {
     text-align: center;
-    max-width: 300px;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 400px);
+    grid-gap: 10px;
 }
 
 .forecast canvas {
     margin: 15px 0;
+}
+
+.forecast .col {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #fff;
 }

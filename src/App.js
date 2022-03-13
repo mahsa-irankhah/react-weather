@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Tehran" />
-        <p>
+        <p className="text-center m-3">
           <a href="https://github.com/mahsa-irankhah/react-weather">
             open-sourced
           </a>{" "}

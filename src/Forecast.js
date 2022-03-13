@@ -19,17 +19,26 @@ const Forecast = (props) => {
   
    if (loaded) {return (
      <div className={styles.forecast}>
-       <div className="row">
-         <div className="col-6 bg-primary">
-           {forecastData.map((daily, index) => {
-             if (index < 6) {
-               return <ForecastDay key={index} data={daily} />;
-             } else {
-               return null;
-             }
-           })}
-         </div>
-       </div>
+       
+           <div className={styles.col}>
+             <ForecastDay data={forecastData[0]} />
+           </div>
+           <div className={styles.col}>
+             <ForecastDay data={forecastData[1]} />
+           </div>
+           <div className={styles.col}>
+             <ForecastDay data={forecastData[2]} />
+           </div>
+           <div className={styles.col}>
+             <ForecastDay data={forecastData[3]} />
+           </div>
+           <div className={styles.col}>
+             <ForecastDay data={forecastData[4]} />
+           </div>
+           <div className={styles.col}>
+             <ForecastDay data={forecastData[5]} />
+           </div>
+         
      </div>
    );} else {
       const lat = props.coords.lat;
